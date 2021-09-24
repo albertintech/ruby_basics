@@ -16,3 +16,5 @@
 # There is no separate section that discusses the ruby language itself. Some of what people think of as "the language" are actually methods in the Kernel module or Object class, including loop, exit, fail, gets and require. The rest of the language, such as basic syntax, control methods (while, until, if, unless, case, break, next) operators, methods, and much more is tucked away in the core API documentation. Go to the core API documentation for your version of ruby and look near the top for the "New to ruby?" links. You will also find additional topics discussed in the links provided under the "Files" heading.
 #
 # Note that the documentation effort is not complete; there are still a number of items that are not covered or are inadequately covered. However, it remains the most complete and up-to-date documentation available.
+
+# I've bookmarked the ruby docs at https://docs.ruby-lang.org/en/
