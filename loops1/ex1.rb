@@ -4,4 +4,5 @@
 
 loop do
   puts 'Just keep printing...'
+  break # Added break to exit infinite loop 
 end
