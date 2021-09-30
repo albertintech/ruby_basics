@@ -5,12 +5,15 @@
 a = 0
 b = 0
 
+p "Once either number has reached 5, program will cease."
+
 loop do
   a += rand(2)
   b += rand(2)
+  p "'a' has reached: #{a}"
+  p "'b' has reached: #{b}"
 
+  next unless a == 5 || b == 5
+  puts "5 was reached!"
   break
 end
-
-p a
-p b
