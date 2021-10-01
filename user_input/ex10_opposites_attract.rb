@@ -31,4 +31,6 @@ end
 sum = first_number + second_number
 puts "#{first_number} + #{second_number} = #{sum}"
 
-# This one was a little beyond me as I am not that comfortable creating my own methods without messing everything up. I will revisit another time.
+# I feel that this one was a bit beyond "basic," that is, there has not been adequte practice of each element to this solution prior to this exercise.
+
+# A hint to the complexity is that the solution video is almost 12 minutes long.
