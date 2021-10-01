@@ -5,3 +5,29 @@ def valid_number?(number_string)
 end
 
 # It returns true if the input string can be converted to an integer and back to a string without loss of information, false otherwise. It's not a perfect solution in that some inputs that are otherwise valid (such as 003) will fail, but it is sufficient for this exercise.
+
+
+dividend = nil
+divisor = nil
+
+loop do
+  puts "Please enter an integer dividend:"
+  dividend = gets.chomp
+  break if valid_number?(dividend)
+  puts "Not a valid integer. Try again."
+end
+
+loop do
+  puts "Please enter a non-zero integer divisor: "
+  divisor = gets.chomp
+  if divisor == '0'
+    puts "You entered 0, which is not a valid divisor."
+  else
+    break if valid_number?(divisor)
+    puts "Not a valid non-zero integer. Try again."
+  end
+end
+
+quotient = dividend.to_i / divisor.to_i
+
+puts "When #{dividend} is your dividend and #{divisor} is your divisor, your result is the quotient #{quotient}."
