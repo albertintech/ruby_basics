@@ -10,3 +10,5 @@
 # I'm the color yellow!
 # I'm the color purple!
 # I'm the color green!
+
+colors.each { |c| puts "I'm the color #{c}!"}
