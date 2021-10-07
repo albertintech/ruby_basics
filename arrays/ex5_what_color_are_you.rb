@@ -12,3 +12,9 @@
 # I'm the color green!
 
 colors.each { |c| puts "I'm the color #{c}!"}
+
+#LS Solution
+
+# colors.each do |color|
+#   puts "I'm the color #{color}!"
+# end
