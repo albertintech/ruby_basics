@@ -12,3 +12,9 @@ low_numbers = numbers.select! do |key, value|
 
 p low_numbers
 p numbers
+
+# Discussion
+# In the previous exercise, we used #select without the bang suffix (!). This returned a new hash from #select, and left numbers unmodified. Our solution in this exercise uses #select! to modify the hash assigned to numbers.
+
+# Further Exploration
+# In our solution, we assign the return value of #select! to low_numbers. Is this assignment really needed if we mutated numbers? Typically, when using methods that mutate the caller, the return value is of no interest because the caller is intentionally being mutated. If you do an assignment like this, you end up creating an alias: both numbers and low_numbers now point to the same Hash.
