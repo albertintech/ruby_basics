@@ -18,3 +18,8 @@ loop do
 
   i += 1
 end
+
+
+# No. This is beyond "basics" for those "very new to Ruby" or "very new to programming"
+
+# I don't think this is an appropiate exercise at this level.

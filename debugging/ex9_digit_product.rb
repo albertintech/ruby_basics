@@ -17,3 +17,7 @@ end
 p digit_product('12345')
 # expected return value: 120
 # actual return value: 0
+
+# No. This is beyond "basics" for those "very new to Ruby" or "very new to programming"
+
+# I don't think this is an appropiate exercise at this level.
